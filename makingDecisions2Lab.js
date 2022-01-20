@@ -7,13 +7,15 @@ var arr = [10,20,30,40,50,60]
 */
 
 //Code Here
-
+let firstItem = arr[0]
+console.log(firstItem)
 
 ////////// PROBLEM 2 //////////
 /*
   Remove the last item from the 'arr' array and store it in a variable named 'lastItemRemoved'. Console.log the array to verify you no longer have the last item.
 */
-
+let lastItemRemoved = arr.pop()
+console.log(arr)
 //Code Here
 
 ////////// PROBLEM 3 //////////
