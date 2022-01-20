@@ -163,28 +163,28 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 */
 
 //Code Here
-switch(letterGrade){
-  case 'A':
-  console.log("The student is doing excellently.")
-  break
-  case 'B':
-  console.log("The student is doing well.")
-  break
-  case 'C':
-  console.log("The student is doing alright.")
-  break
-  case 'D':
-  console.log("The student is not doing very well.")
-  break
-  case 'F':
-  console.log("The studnet is failing.")
-  break
-  default:
-  console.log("Not an eligible grade.")
+// switch(letterGrade){
+//   case 'A':
+//   console.log("The student is doing excellently.")
+//   break
+//   case 'B':
+//   console.log("The student is doing well.")
+//   break
+//   case 'C':
+//   console.log("The student is doing alright.")
+//   break
+//   case 'D':
+//   console.log("The student is not doing very well.")
+//   break
+//   case 'F':
+//   console.log("The studnet is failing.")
+//   break
+//   default:
+//   console.log("Not an eligible grade.")
 
 
 
-}
+// }
 
 
 ////////// PROBLEM 11 //////////
@@ -212,3 +212,18 @@ switch(letterGrade){
 */
 
 //Code Here
+
+for(i = 1; i < 101; i++){
+  if(i % 3 != 0 && i % 5 != 0){
+    console.log(i)
+  }
+  else if(i % 3 === 0 && i % 5 != 0){
+    console.log('Dev')
+  }
+  else if(i % 3 != 0 && i % 5 === 0){
+    console.log('Mountain')
+  }
+  else if(i % 3 === 0 && i % 5 === 0){
+    console.log('DevMountain')
+  }
+}
